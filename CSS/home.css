@@ -1,0 +1,51 @@
+
+/* Cores do site */
+:root {
+    --cor1: #DF2849;
+    --fundo: #fff8e5;
+    --hellok1: #FF76AF;
+    --hellok2: #FFAFD1;
+    --pochacco1: #46B9FD;
+    --pochacco2: #ACE1F4;
+    --kuromi1: #9047A6;
+    --kuromi2: #E3A6F6;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--fundo);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--cor1);
+    color: white;
+}
+
+nav i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .fundo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner .frente {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40%;
+    height: auto;
+}
