@@ -1,14 +1,16 @@
 
 /* Cores do site */
 :root {
-    --cor1: #DF2849;
-    --fundo: #fff8e5;
-    --hellok1: #FF76AF;
-    --hellok2: #FFAFD1;
-    --pochacco1: #46B9FD;
-    --pochacco2: #ACE1F4;
-    --kuromi1: #9047A6;
-    --kuromi2: #E3A6F6;
+    --cor1      : #DF2849;
+    --fundo     : #fff8e5;
+    --hellok1   : #FF76AF;
+    --hellok2   : #FFAFD1;
+    --pochacco1 : #46B9FD;
+    --pochacco2 : #ACE1F4;
+    --kuromi1   : #9047A6;
+    --kuromi2   : #E3A6F6;
+    --chococat1 : #58465d;
+    --chococat2 : #b29cb8;
 }
 
 body {
@@ -17,12 +19,19 @@ body {
     background-color: var(--fundo);
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--cor1);
+    z-index: 999;
+}
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: var(--cor1);
+    
     color: white;
 }
 
