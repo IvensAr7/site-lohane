@@ -65,12 +65,17 @@ nav i {
     height: auto;
 }
 
+
+
 .personagens {
     display: block;
-    text-align: center;
-    margin: -10px 30px 0 30px;
-    border-radius: 30px;
     background-color: #ffafd1;
+}
+
+.box { 
+    text-align: center;
+    border-radius: 30px;
+    margin: -10px 30px 0 30px;
 }
 
 .personagens > h1 {
@@ -85,10 +90,34 @@ nav i {
 
 .escolha {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .escolha img {
     width: 20%;
     height: auto;
 }
+
+.botao {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-family: 'frankfurter';
+    letter-spacing: 7px;
+    font-size: 1.5rem;
+    background-color: #ef75c0;
+    border-radius: 0 0 30px 30px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #fa8cd0;
+}
+
+.botao i {
+    font-size: 3rem;
+    align-content: center;
+}
+
