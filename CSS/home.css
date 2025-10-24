@@ -98,7 +98,7 @@ nav i {
     height: auto;
 }
 
-.botao {
+.botao1 {
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -112,12 +112,59 @@ nav i {
     transition: 0.3s;
 }
 
-.botao:hover {
+.botao1:hover {
     background-color: #fa8cd0;
 }
 
-.botao i {
+.botao1 i {
     font-size: 3rem;
     align-content: center;
 }
 
+.historia {
+    background-color: #A3DCEB;
+}
+
+.historia > h1 {
+    height: auto;
+    color: white;
+    font-family: 'frankfurter';
+    background-color:  #46B9FD;
+    border-radius: 30px 30px 0 0;
+    padding: 30px;
+    letter-spacing: 10px;
+}
+
+.historia div {
+    display: flex;
+}
+
+.historia .texto {
+    margin: auto;
+    padding: 150px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.botao2 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-family: 'frankfurter';
+    letter-spacing: 7px;
+    font-size: 1.5rem;
+    background-color: #46B9FD;
+    border-radius: 0 0 30px 30px;
+    transition: 0.3s;
+}
+
+.botao2 i {
+    font-size: 3rem;
+    align-content: center;
+}
+
+.botao2:hover {
+    background-color: #75c7f6;
+}
